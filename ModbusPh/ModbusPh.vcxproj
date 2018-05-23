@@ -114,12 +114,15 @@
     <ClInclude Include="FirmwareInformation.h" />
     <ClInclude Include="ModbusPhoenixService.h" />
     <ClInclude Include="QTGlobalInfo.h" />
+    <ClInclude Include="stringhelper.h" />
+    <ClInclude Include="Variable.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Device.cpp" />
     <ClCompile Include="FirmwareInformation.cpp" />
     <ClCompile Include="ModbusPhoenixService.cpp" />
     <ClCompile Include="QTGlobalInfo.cpp" />
+    <ClCompile Include="Variable.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

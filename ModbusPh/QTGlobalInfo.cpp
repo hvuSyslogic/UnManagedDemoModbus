@@ -26,5 +26,6 @@ BOOL QTGlobalInfo::Initialize(std::string DllName)
 
 std::string QTGlobalInfo::CopyConfToFwInfo(char* data, int fromWord, int toWord)
 {
-	return std::string();
+	std::string SourceString(data);
+	return SourceString.substr(fromWord, toWord - fromWord);
 }

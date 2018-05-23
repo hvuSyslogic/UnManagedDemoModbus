@@ -27,6 +27,12 @@
     <ClInclude Include="FirmwareInformation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="stringhelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Variable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModbusPhoenixService.cpp">
@@ -39,6 +45,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="FirmwareInformation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
