@@ -1,6 +1,5 @@
 #include "FirmwareInformation.h"
 
-
 std::string FirmwareInformation::getVersion() const
 {
 	return privateVersion;
@@ -43,7 +42,6 @@ void FirmwareInformation::setTime(const std::string &value)
 
 void FirmwareInformation::SetData(char* data)
 {
- 
 }
 
 void FirmwareInformation::Delete()

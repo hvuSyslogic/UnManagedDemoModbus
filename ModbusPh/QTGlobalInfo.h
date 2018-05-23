@@ -2,7 +2,7 @@
 
 #ifndef QTGLOBALINFO_H
 #define QTGLOBALINFO_H
-#endif
+
 #include <stdio.h>
 #include <windows.h>
 #include "Device.h"
@@ -23,3 +23,4 @@ private:
 	QTGlobalInfo(const QTGlobalInfo&) {}; //prevent copy construction
 	HINSTANCE hinstLib;
 };
+#endif

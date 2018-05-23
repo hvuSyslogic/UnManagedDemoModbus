@@ -33,6 +33,21 @@
     <ClInclude Include="Variable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="VarInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VarOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ModbusPhoenixService.cpp">
@@ -48,6 +63,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Variable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VarInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VarOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

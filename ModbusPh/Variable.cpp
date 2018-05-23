@@ -28,6 +28,9 @@ Variable::Variable(int p_baseAddress, PD_Length* pSize, int pLength, int pBitOff
 	}
 }
 
+Variable::Variable()
+{
+}
 
 void Variable::AssignController(const std::string &ControllerName)
 {
