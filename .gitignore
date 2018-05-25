@@ -328,3 +328,6 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+/ModbusPh/ibseth.dll
+/ModbusPh/Ibddiwnt.dll
+/ModbusPh/dn2ddi.dll

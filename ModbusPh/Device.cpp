@@ -24,7 +24,7 @@ char * const Device::GetIPAddress()
 string Device::GetconnectionDTI()
 {
 	string connectionDTI("IBETHIP[");
-	string ipAddress(m_IPaddress);
+	string ipAddress(GetIPAddress());
 	connectionDTI += ipAddress;
 	connectionDTI += "]N1_D";
 
@@ -34,7 +34,7 @@ string Device::GetconnectionDTI()
 string Device::GetconnectionMXI()
 {
 	string connectionDTI("IBETHIP[");
-	string ipAddress(m_IPaddress);
+	string ipAddress(GetIPAddress());
 	connectionDTI += ipAddress;
 	connectionDTI += "]N1_M";
 
