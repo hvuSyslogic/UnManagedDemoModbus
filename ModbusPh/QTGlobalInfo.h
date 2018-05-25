@@ -6,6 +6,18 @@
 #include <stdio.h>
 #include <windows.h>
 #include "Device.h"
+
+typedef struct {
+	unsigned short length;
+	/* Amount of data to be read in bytes */
+	unsigned short address;
+	/* Address in the DTI area (byte address) */
+	unsigned short dataCons;
+	/* Desired data consistency area */
+	unsigned char *data;
+	/* Pointer to the data (read and
+	write) */
+} T_DDI_DTI_ACCESS;
 typedef void(*QTDNDDIGETVERSION)(PSZ, int);
 class QTGlobalInfo
 {
